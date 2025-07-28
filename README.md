@@ -9,7 +9,7 @@ backend setup
   Install dependencies:
    npm install
 
- Create a `.env` file in the server directory:
+ Create a `.env` file in the backend directory:
    PORT=define-port-here
    MONGODB_URI=mongodb://localhost:27017/music-playlist-app
    JWT_SECRET=jwt-secret
@@ -28,6 +28,9 @@ Frontend setup
 
  Install dependencies:
    npm install
+
+Create a `.env` file in the frontend directory:
+  REACT_APP_API_URI = http://localhost:5000/api
 
  Start the development server:
    npm start
